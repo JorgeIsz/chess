@@ -4,7 +4,10 @@
 
 
 :root {
-  --color-primary: #5992fc;
-  --color-primary-alt: #BFDBFE;
+  --color-primary: #48a6ab;
+  --color-primary-dark: #29878b;
+  --color-secondary: #3e80b0;
+  --color-tertiary: #aa3f58;
   --color-gray: #727272;
+  --color-white: #f4f7f7;
 }

@@ -3,11 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      primary: "var(--color-primary)",
-      "primary-alt": "var(--color-primary-alt)",
-      gray: "var(--color-gray)",
-      black: "#000",
-      white: "#fff",
+      "primary": "var(--color-primary)",
+      "primary-dark": "var(--color-primary-dark)",
+      "gray": "var(--color-gray)",
+      "black": "#000",
+      "white": "var(--color-white)",
     },
   },
   variants: {

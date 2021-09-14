@@ -1,6 +1,8 @@
 <template>
-  <div class="flex justify-between px-20 py-5 border-b-2 border-gray">
-    <span class="font-bold">Chess</span>
+  <div class="flex justify-between px-20 py-5 border-b-2 border-gray bg-white">
+    <router-link to="/">
+      <span class="font-bold">Chess</span>
+    </router-link>
     <ul class="flex justify-between">
       <li class="mr-5">
         <router-link to="/">
