@@ -1,14 +1,16 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div id="nav">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+  </div>
+  <router-view />
 </template>
-
-<script lang="ts" setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
 
 <style>
 #app {
+  font-family: Ubuntu;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 </style>
