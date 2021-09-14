@@ -1,9 +1,7 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
+  <BaseLayout>
+    <router-view />
+  </BaseLayout>
 </template>
 
 <style>
@@ -12,5 +10,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 </style>
+
+<script setup lang="ts">
+import BaseLayout from "./layouts/BaseLayout.vue";
+</script>
